@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addList {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addList h1 {
+  text-align: center;
+}
+
+.text {
+  width: 400px;
+  height: 40px;
+  font-size: 40px;
+  background: rgb(4, 65, 4);
+  color: rgb(75, 118, 197);
+  border: 1px solid rgb(17, 0, 255);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.agree {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+}
+
+.List li {
+  display: flex;
+  justify-content: end;
+  width: 350px;
+  height: 50px;
+  border: 2px solid black;
+  background: rgb(255, 79, 79);
+  margin-bottom: 5px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 20px;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.List span {
+  display: flex;
+}
+
+.valueList {
+  min-height: 25px;
+  min-width: 200px;
+  margin-right: auto;
+  font-size: 25px;
+}
+
+.valueListC {
+  min-height: 25px;
+  min-width: 200px;
+  margin-right: auto;
+  font-size: 25px;
+  text-decoration-line: line-through;
+}
+
+.buttonList span {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.editList {
+  background: green;
+}
+
+.succesList {
+  background: red;
+}
+
+.deleteList {
+  background: yellow;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  scroll-behavior: smooth;
+  height: 500px;
+  width: 380px;
+  overflow-y: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
