@@ -23,7 +23,7 @@
   width: 400px;
   height: 40px;
   font-size: 40px;
-  background: rgb(4, 65, 4);
+  background: rgb(15, 112, 15);
   color: rgb(75, 118, 197);
   border: 1px solid rgb(17, 0, 255);
   margin-bottom: 10px;
@@ -31,9 +31,13 @@
 }
 
 .agree {
-  width: 200px;
-  height: 30px;
+  width: 250px;
+  height: 35px;
   margin: 10px;
+  background: rgb(2, 141, 160);
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .List li {
@@ -79,6 +83,10 @@
   justify-content: center;
 }
 
+.buttonList span:hover {
+  box-shadow: 2px 2px 2px;
+}
+
 .editList {
   background: green;
 }
@@ -96,10 +104,37 @@
 }
 
 .list {
+  -ms-overflow-style: none;
+}
+
+.list {
+  scrollbar-width: none;
   scroll-behavior: smooth;
   height: 500px;
-  width: 380px;
+  width: 360px;
   overflow-y: auto;
   border: 1px solid black;
   border-radius: 10px;
+  padding: 10px;
+  background: rgb(100, 255, 120);
+}
+
+.List li {
+  box-shadow: 3px 3px 0px;
+}
+
+.btnEdit {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  background: rgb(255, 255, 149);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.warning {
+  font-size: 30px;
+  color: brown;
+  text-align: center;
 }
