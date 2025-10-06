@@ -16,6 +16,18 @@
         <div id="edit"></div>
       </div>
     <div class="List">
+      <div class="one">
+        <p class="count" id="count">количество: 0</p>
+        <button class="sort" id="sort">сортировка</button>
+        <input type="text" placeholder="поиск" class="searchT" id="searchT">
+        <button class="search" id="search">🔍</button>
+      </div>
+      <form class="two" id="sort-form">
+        <label><input type="radio" name="sort-type" value="new-first" checked>новые</label>
+        <label><input type="radio" name="sort-type" value="old-first">старые</label>
+        <label><input type="radio" name="sort-type" value="true-first">готовые</label>
+  <label><input type="radio" name="sort-type" value="false-first">не готовые</label>
+      </form>
         <ol class="list" id="list">
         </ol>
     </div>
