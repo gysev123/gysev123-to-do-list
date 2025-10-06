@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
 
 .addList {
@@ -267,3 +268,4 @@
   max-width: 140px;
   user-select: none;
 }
+
