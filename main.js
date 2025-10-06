@@ -3,7 +3,9 @@ const newList = document.createElement("li");
 const editbtn = document.getElementById("edit");
 const data = localStorage.getItem("note");
 const count = document.getElementById("count");
-const button = document.getElementById("agree");
+const button = (document.getElementById("agree").onclick = function () {
+  addNote();
+});
 const form = document.getElementById("sort-form");
 document.getElementById("sort").onclick = function () {
   sortV();
@@ -216,3 +218,4 @@ function sortNotes(type) {
       throw new Error("Некорректный тип сортировки");
   }
 }
+
